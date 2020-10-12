@@ -17,32 +17,32 @@ html = """
     
     body {
     color: #fff;
-    background-color: #09ab3b;
+    background-color: #000000;
     }
 
     .sidebar .sidebar-collapse-control,
     .sidebar.--collapsed .sidebar-collapse-control {
       left: auto;
       right: 0.5rem;
-      background-color: #09ab3b
+      background-color: #191919
     }
 
     .sidebar .sidebar-content {
       transition: margin-right .3s, box-shadow .3s;
       color: #fff;
-      background-color: #09ab3b;
+      background-color: #191919;
     }
 
     .sidebar.--collapsed .sidebar-content {
       margin-left: auto;
       margin-right: -21rem;
-      background-color: #09ab3b;
+      background-color: #191919;
     }
 
     @media (max-width: 991.98px) {
       .sidebar .sidebar-content {
         margin-left: auto;
-        background-color: #09ab3b
+        background-color: #191919
       }
     }
   </style>
